@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Basic Quiz</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../BasicQuiz/assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../BasicQuiz/assets/css/style.css">
+    <script src="../BasicQuiz/assets/javascript/app.js"></script>
+</head>
+<body>
+    <h1>Girl Power Trivia!</h1>
+    <h2 id="directions">Press the start button to start. Answer as many questions correctly as you can before the timer runs out.</h2>
+    <button id="start">START!</button>
+
+    <div id="timer"></div>
+
+<div id="questions">
+    <h3>What celebrity goes by the nickname Tay-Tay?</h3>
+    <form id="Q1">
+            <input type="radio" name="check" value="Oprah"> Tina Fey
+            <input type="radio" name="check" value="taylor"> Taylor Swift
+            <input type="radio" name="check" value = "Halle"> Tyra Banks
+            <input type="radio" name="check" value= "Jordin"> Tina Turner
+    </form>
+
+    <h3>Who was the first woman to win a Nobel Prize?</h3>
+
+    <form id="Q2">
+            <input type="radio"name="check"> Susan B. Anthony
+            <input type="radio" name="check"> Charlotte Bronte
+            <input type="radio" name="check" value = "marie"> Marie Curie
+            <input type="radio" name="check" > Amelia Earhart
+    </form>
+
+    <h3>Which of these women's name was misspelled on their birth certificate and became the name we know them by today?</h3>
+<form id= "Q3">
+    <input type="radio" name="check" value="oprah"> Oprah Winfrey
+    <input type="radio" name="check" value="Beyonce"> Beyonce Knowles
+    <input type="radio" name="check" value = "Halle"> Halle Berry
+    <input type="radio" name="check" value= "Jordin"> Jordin Sparks
+</form>
+
+    <h3>In 2014, this actress was presented with the Presidential Medal of Freedom, the highest civilian honor in the US, by President Barack Obama.</h3>
+    <form id= "Q4">
+            <input type="radio" name="check" value="meryl"> Meryl Streep
+            <input type="radio" name="check" value="Beyonce"> Angelina Jolie
+            <input type="radio" name="check" value = "Halle"> Judi Dench
+            <input type="radio" name="check" value= "Jordin"> Uma Thurman
+        </form>
+
+    <h3>Which famous singer cut class so often in High School she got the nickname "Mirage"</h3>
+    
+    
+    <form id= "Q5">
+            <input type="radio" name="check" value="mariah"> Mariah Carey
+            <input type="radio" name="check" value="Madonna"> Madonna
+            <input type="radio" name="check" value = "Macy"> Macy Gray
+            <input type="radio" name="check" value= "Mandy"> Mandy Moore
+        </form>
+</div>
+
+        <div id="correct"></div>
+        <div id="wrong"></div>
+        <div id="unanswered"></div>
+</body>
+</html>

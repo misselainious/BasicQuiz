@@ -1,0 +1,78 @@
+body{
+    background-image: url("../images/pexels-photo-1191710.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h1{
+    color: white;
+    font-size: 85px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-weight: 1000;
+    padding: 40px;
+}
+
+#directions{
+    color:white;
+    font-size: 30px;
+    background: navy;
+    text-align: center;
+    padding: 30px;
+}
+#start{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    padding: 30px;
+    color: rgb(19, 18, 18);
+    background-color: goldenrod;
+    font-size: 35px;
+    border: none;
+    border-radius: 30%;
+}
+#start:hover{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    padding: 30px;
+    color: forestgreen;
+    background-color: pink;
+    font-size: 35px;
+    border: none;
+    border-radius: 30%;
+}
+#questions{
+    background: white;
+    
+}
+h3{
+    font-size: 25px;
+    padding: 5px;
+}
+#timer{
+    font-size: 50px;
+    background-color: aquamarine;
+    font-weight: 600;
+    position: absolute;
+    display: inline-block;
+    top:30%;
+    left: 40%;
+    padding: 30px;
+    border: 5px solid blue;
+}
+input{
+    font-size: 30px;
+    padding: 5px;
+}
+form{
+    padding: 40px;
+}
+#correct,
+#wrong,
+#unanswered{
+    font-size: 60px;
+    background-color: plum;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
