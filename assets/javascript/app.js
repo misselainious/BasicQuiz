@@ -21,7 +21,7 @@ var unanswered = 0;
 
 //Timer
 
-var timeLeft = 10;
+var timeLeft = 30;
 var elem = document.getElementById('timer');
 var timerId = setInterval(countdown, 1000);
 
